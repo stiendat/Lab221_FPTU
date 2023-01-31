@@ -1,5 +1,11 @@
-package vn.edu.fpt;public class Main {
+package vn.edu.fpt;
+
+import vn.edu.fpt.services.ConsoleApplication;
+
+public class Main {
+
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        ConsoleApplication.loadTestData();
+        ConsoleApplication.mainMenu();
     }
 }
